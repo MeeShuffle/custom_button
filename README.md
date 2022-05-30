@@ -10,3 +10,5 @@ destroyCustomButton(button)
 isButton(button)
 
 customButtonSetSpeed(button,speedFilling,speedUnfilling)
+
+addEventHandler("onCustomButtonClick",root,function(button)
