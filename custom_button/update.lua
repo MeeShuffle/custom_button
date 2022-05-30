@@ -3,7 +3,7 @@
 
 
 
-addCommandHandler("updatecedit",function(plr)
+addCommandHandler("updatecbutton",function(plr)
     print("[Custom_button] Łączenie z GitHub...")
     print("[Custom_button] Przygotowywanie do pobierania...")
     fetchRemote("https://raw.githubusercontent.com/MeeShuffle/custom_button/main/custom_button/meta.xml",function(data,error,path)
