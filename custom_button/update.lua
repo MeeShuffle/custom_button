@@ -107,4 +107,4 @@ function checkVersion()
     end,"",false,"version.txt")
 end
 setTimer(checkVersion,60000,0)
-addCommandHandler("updatecbutton",checkVersion)
+addCommandHandler("checkcbutton",checkVersion)
