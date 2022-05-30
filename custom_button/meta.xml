@@ -10,4 +10,7 @@
 	<export function="destroyCustomButton" type="client"/>
 	<export function="isButton" type="client"/>
 	<export function="customButtonSetSpeed" type="client"/>
+	<aclrequest>
+		<right name="function.fetchRemote" access="true" />
+	</aclrequest>
 </meta>
