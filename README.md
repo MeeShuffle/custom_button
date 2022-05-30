@@ -11,7 +11,7 @@ isButton(button)
 
 customButtonSetSpeed(button,speedFilling,speedUnfilling)
 
-addEventHandler("onCustomButtonClick",root,function(button)
+addEventHandler("onCustomButtonClick",root,function(button,key)
 
 # Create example
 

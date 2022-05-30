@@ -106,10 +106,10 @@ end
 addEventHandler("onClientResourceStop",root,self.clear)
 
 self.click = function(k,s)
-    if k=="left" and s=="down" then
+    if s=="down" then
         for i = 1,#self.button do
             if self.cursor(self.button[i].x,self.button[i].y,self.button[i].w,self.button[i].h) and self.button[i].visible then
-                triggerEvent("onCustomButtonClick",localPlayer,self.button[i].id)
+                triggerEvent("onCustomButtonClick",localPlayer,self.button[i].id,k)
             end
         end
     end
