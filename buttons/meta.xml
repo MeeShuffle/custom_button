@@ -1,0 +1,12 @@
+<meta>
+	<info name="Custom button" author="MeeShuffle" version="1.0 Beta"/>
+	<script src="c.lua" type="client" cache="false"/>
+	<script src="change.lua" type="client" cache="false"/>
+	<file src="font.ttf"/>
+	
+	<export function="onCustomButtonClick" type="client"/>
+	<export function="createCustomButton" type="client"/>
+	<export function="destroyCustomButton" type="client"/>
+	<export function="isButton" type="client"/>
+	<export function="customButtonSetSpeed" type="client"/>
+</meta>
